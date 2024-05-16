@@ -11,14 +11,7 @@ This Python code creates a Packet Sniffer application using the tkinter and scap
    - Buttons for starting, stopping, and downloading logs are created using `tk.Button`.
 
 3. **Button Functionality:**
-   - The "Start Sniffing" button initiates packet sniffing when clicked. It disables itself, enables the "Stop Sniffing" button, and starts displaying packet information in the GUI.
+   - The "Start Sniffing" button initiates packet sniffing when clicked. It disables itself, enables the "Stop Sniffing" button, and starts displaying packet information in 
+     the GUI.
    - The "Stop Sniffing" button halts packet sniffing when clicked. It re-enables the "Start Sniffing" button and disables itself.
    - The "Download Log" button saves the displayed packet log to a text file in the user's Downloads directory.
-
-4. **Multithreading:**
-   - Multithreading is used to ensure that packet sniffing operations do not block the main GUI thread. This allows the GUI to remain responsive while packets are being captured.
-
-5. **Styling:**
-   - The background color of the buttons is set to red to enhance their visibility and add a visual cue to their functionality.
-
-Overall, this code provides a simple yet effective way to capture and display network packets in real-time, with options to start, stop, and save packet logs for further analysis.
